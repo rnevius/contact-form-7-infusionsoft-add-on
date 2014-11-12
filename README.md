@@ -2,13 +2,13 @@
 
 Welcome to the Contact Form 7 - InfusionSoft Add-on repository on GitHub. Here you can browse the source, look at open issues, and even contribute to development.
 
-If you are not a developer, please use the [Contact Form 7 - InfusionSoft Add-on plugin page](https://wordpress.org/plugins/contact-form-7-infusionsoft-add-on/) on WordPress.org.
+If you are not a developer, please install this plugin on the official [Contact Form 7 - InfusionSoft Add-on plugin page](https://wordpress.org/plugins/contact-form-7-infusionsoft-add-on/) on WordPress.org.
 
 ## Support
 
-This repository is not suitable for support. Please don't use the issue tracker for support requests, but for core plugin development-related issues only. Support can take place in the [official plugin support forum](https://wordpress.org/support/plugin/contact-form-7-infusionsoft-add-on) on WordPress.org.
+This repository is not suitable for support. Please don't use the issue tracker for support requests, but for core plugin development-related issues only. Support will take place in the [official plugin support forum](https://wordpress.org/support/plugin/contact-form-7-infusionsoft-add-on) on WordPress.org.
 
-Support requests in issues on this repository will be closed on sight.
+Support requests in issues on this repository will be closed immediately.
 
 ## Contributing
 
@@ -36,15 +36,15 @@ GitHub is for *bug reports and contributions only* - if you have a support quest
 
 At this point I'll review all pull requests, and make suggestions and changes if necessary.
 
-# Additional Resources
-
-* [General GitHub documentation](http://help.github.com/)
-* [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
-
 ## To-Do
 
 The following items are on the development to-do list. If you feel like trying to tackle one or more of them, feel free to submit a pull request.
 
 1. "Prettify" the contact tag input to use a similar style to the default WordPress Tags input meta box that appears on post edit screens. 
 2. Add support for all [InfusionSoft contact fields](https://developer.infusionsoft.com/docs/read/Table_Documentation#Contact). 
-3. Modify the JS tag generator so that input `type`s are modified, according to which contact field is selected. For example, a, `infusionsoft-email` field should use `<input type="email">` rather than `<input type="text">`.
+3. Modify the JS tag generator so that input `type`s are modified, according to which contact field is selected. For example, an "infusionsoft-email" field should use `<input type="email">` rather than `<input type="text">`.
+
+## Additional Resources
+
+* [General GitHub documentation](http://help.github.com/)
+* [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
