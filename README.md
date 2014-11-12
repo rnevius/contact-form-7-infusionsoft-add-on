@@ -4,6 +4,8 @@ Welcome to the Contact Form 7 - InfusionSoft Add-on repository on GitHub. Here y
 
 If you are not a developer, please install this plugin on the official [Contact Form 7 - InfusionSoft Add-on plugin page](https://wordpress.org/plugins/contact-form-7-infusionsoft-add-on/) on WordPress.org.
 
+*This plugin is not offered, sponsored, associated with or endorsed by Infusion Software, Inc.*
+
 ## Support
 
 This repository is not suitable for support. Please don't use the issue tracker for support requests, but for core plugin development-related issues only. Support will take place in the [official plugin support forum](https://wordpress.org/support/plugin/contact-form-7-infusionsoft-add-on) on WordPress.org.
@@ -43,8 +45,11 @@ The following items are on the development to-do list. If you feel like trying t
 1. "Prettify" the contact tag input to use a similar style to the default WordPress Tags input meta box that appears on post edit screens. 
 2. Add support for all [InfusionSoft contact fields](https://developer.infusionsoft.com/docs/read/Table_Documentation#Contact). 
 3. Modify the JS tag generator so that input `type`s are modified, according to which contact field is selected. For example, an "infusionsoft-email" field should use `<input type="email">` rather than `<input type="text">`.
+4. Limit required fields to "infusionsoft-email" and the name fields. These fields are all that are required by the InfusionSoft API to validate a contact.
 
 ## Additional Resources
 
 * [General GitHub documentation](http://help.github.com/)
 * [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
+
+*This plugin is not offered, sponsored, associated with or endorsed by Infusion Software, Inc.*
