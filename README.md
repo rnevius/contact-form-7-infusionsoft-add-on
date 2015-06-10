@@ -34,7 +34,6 @@ GitHub is for *bug reports and contributions only* - if you have a support quest
   * **Try to stick to the [WordPress Coding Standards](http://make.wordpress.org/core/handbook/coding-standards/php/).**
 * When committing, [reference your issue number](https://help.github.com/articles/closing-issues-via-commit-messages/) and include a note about the fix.
 * Push the changes to your fork and submit a pull request on the master branch of this repository.
-* Please don't modify the changelog.
 
 At this point I'll review all pull requests, and make suggestions and changes if necessary.
 
@@ -42,10 +41,8 @@ At this point I'll review all pull requests, and make suggestions and changes if
 
 The following items are on the development to-do list. If you feel like trying to tackle one or more of them, feel free to submit a pull request.
 
-1. "Prettify" the contact tag input to use a similar style to the default WordPress Tags input meta box that appears on post edit screens. 
-2. Add support for all [InfusionSoft contact fields](https://developer.infusionsoft.com/docs/read/Table_Documentation#Contact). 
-3. Modify the JS tag generator so that input `type`s are modified, according to which contact field is selected. For example, an "infusionsoft-email" field should use `<input type="email">` rather than `<input type="text">`.
-4. Limit required fields to "infusionsoft-email" and the name fields. These fields are all that are required by the InfusionSoft API to validate a contact.
+1. Add support for all [InfusionSoft contact fields](https://developer.infusionsoft.com/docs/read/Table_Documentation#Contact). 
+2. Modify the JS tag generator so that input `type`s are modified, according to which contact field is selected. For example, an "infusionsoft-email" field should use `<input type="email">` rather than `<input type="text">`.
 
 ## Additional Resources
 
