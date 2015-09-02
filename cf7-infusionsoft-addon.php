@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Contact Form 7 - Infusionsoft Add-on
  * Description: An add-on for Contact Form 7 that provides a way to capture leads, tag customers, and send contact form data to InfusionSoft.
- * Version: 1.2.1
+ * Version: 1.2.2
  * Author: Ryan Nevius
  * Author URI: http://www.ryannevius.com
  * License: GPLv3
@@ -171,13 +171,14 @@ function cf7_infusionsoft_addon_add_contact($contact_form_id, $posted_data) {
 
     // Assemble the contact data
 	$contact_data = array(
-			'FirstName' => ( !empty($posted_data['infusionsoft-first-name']) ) ? $posted_data['infusionsoft-first-name'] : '',
-			'LastName' => ( !empty($posted_data['infusionsoft-last-name']) ) ? $posted_data['infusionsoft-last-name'] : '',
-			'Company' => ( !empty($posted_data['infusionsoft-company']) ) ? $posted_data['infusionsoft-company'] : '',
-			'Email' => $posted_data['infusionsoft-email'],
-			'Phone1' => ( !empty($posted_data['infusionsoft-phone']) ) ? $posted_data['infusionsoft-phone'] : '',
-            'ContactNotes' => ( !empty($posted_data['infusionsoft-notes']) ) ? $posted_data['infusionsoft-notes'] : '',
-		);
+		'FirstName' => ( !empty($posted_data['infusionsoft-first-name']) ) ? $posted_data['infusionsoft-first-name'] : '',
+		'LastName' => ( !empty($posted_data['infusionsoft-last-name']) ) ? $posted_data['infusionsoft-last-name'] : '',
+		'Company' => ( !empty($posted_data['infusionsoft-company']) ) ? $posted_data['infusionsoft-company'] : '',
+		'Email' => $posted_data['infusionsoft-email'],
+		'Phone1' => ( !empty($posted_data['infusionsoft-phone']) ) ? $posted_data['infusionsoft-phone'] : '',
+        'ContactNotes' => ( !empty($posted_data['infusionsoft-notes']) ) ? $posted_data['infusionsoft-notes'] : '',
+        'Website' => ( !empty($posted_data['infusionsoft-website']) ) ? $posted_data['infusionsoft-website'] : '',
+	);
 	// Add the contact to InfusionSoft, with a duplicate check
 	$contact_id = $app->addWithDupCheck($contact_data, 'EmailAndName');
 

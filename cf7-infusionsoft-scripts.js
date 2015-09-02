@@ -26,11 +26,7 @@
                 $form.find('#tag-generator-panel-infusionsoft-mailtag').val('[]');
                 $form.find('span.mail-tag').text('[]');
             }
-
-
             
         });
-
-
     });
 })(jQuery);

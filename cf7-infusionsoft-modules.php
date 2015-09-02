@@ -1,11 +1,12 @@
 <?php
 $infusionsoft_fields = array(
-    'first-name' => 'First Name',
-    'last-name' => 'Last Name',
     'company' => 'Company',
     'email' => 'Email Address',
-    'phone' => 'Phone Number',
+    'first-name' => 'First Name',
+    'last-name' => 'Last Name',
     'notes' => 'Person Notes',
+    'phone' => 'Phone Number',
+    'website' => 'Website',
 );
 
 function wpcf7_tag_generator_infusionsoft_old() { 

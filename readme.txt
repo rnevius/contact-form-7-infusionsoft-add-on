@@ -2,7 +2,7 @@
 Contributors: rnevius
 Tags: contact form 7, cf7, contact form, contact forms 7, infusionsoft, infusion soft, forms, infusionsoft form, form, contact form 7 add-on, cf7 infusionsoft, contact form 7 infusionsoft, lead capture, contact form 7 crm, infusionsoft crm, lead form, email capture, business, CRM, e-commerce, forms, marketing
 Requires at least: 3.8.2
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -77,6 +77,9 @@ This plugin is not offered, sponsored, associated with or endorsed by Infusion S
 
 
 == Changelog ==
+
+= 1.2.2 =
+* Adds a "Website" input field to the Form Tag generator.
 
 = 1.2.1 =
 * Fixes bug caused by short-hand PHP array syntax in PHP versions 5.3 and below.
